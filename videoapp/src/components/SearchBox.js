@@ -11,7 +11,7 @@ class SearchBox extends React.Component {
   };
   render() {
     return (
-      <div className="container">
+      <div className="ui segment">
         <form className="ui form" onSubmit={this.onSubmitForm}>
           <div className="field">
             <label>Search : </label>
